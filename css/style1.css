@@ -1,0 +1,212 @@
+/* Header & Nav */
+a {
+    text-decoration: none;
+    color: #777777;
+}
+a:hover {
+    color: #729c72
+}
+header {
+    background: #ffffff;
+    width: 100%;
+    height: 130px;
+    border-bottom: 5px solid #cccccc;
+}
+.primary-header{
+    max-width: 960px;
+    margin:auto;
+}
+.name {
+    font-family: Georgia, Times, Times New Roman, serif;
+    color: #ffffff;
+    background: #4aaaa5;
+    width: 300px;
+    text-align: center;
+    float: left;
+    padding: 30px;
+    margin: 35px 0px 0px 0px;
+    display: inline-block;
+}
+/*Nav Bar*/
+
+nav{
+    float: right;
+    margin-top: 55px;
+    width: 435px;
+}
+
+.about, 
+.portfolio {
+    padding: 0px 15px 0px 15px;
+    border-right: 2px solid #cccccc;
+}
+.contact {
+    padding-left: 15px;
+}
+
+/* Body Style */
+.wholeThing{
+    background-image: url(../images/topography.png);
+    align-content: center;
+    margin: auto;
+}
+.mainPart {
+    width:960px;
+    margin: auto;
+    background: #ffffff;
+
+}
+body{
+    font-family: Arial, Helvetics Neue, Helvetica, sans-serif;
+    color: #777777;
+    background: #ffffff;
+    margin-left: 20px;
+}
+
+/*About me*/
+
+.container {
+	margin: 0 auto;
+    width: 960px;
+    display: inline-block;
+    border-bottom: 5px solid #cccccc;
+}
+.meSec{
+    padding: 30px 0px 30px 0px;
+    margin-top: 30px;
+}
+
+h1 {
+    font-family: Georgia, Times, Times New Roman, serif;
+    color: #4aaaa5;
+    background: #ffffff;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#headShot {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    display: inline-block;
+    float: left;
+    clear: both;
+    padding: 20px 20px 10px 0px;
+}
+
+p {
+    background: #ffffff;
+    width: 960px;
+    padding: 5px 0px 5px 0px;
+    letter-spacing: .02em;
+    line-height: 1.6em;   
+}
+
+/*Portfolio Image Styling*/
+
+#portHead{
+    border-bottom: 5px solid #cccccc;
+}
+
+.box-set{
+    width: 275px;
+    height: 200px;
+    object-fit: cover;
+    z-index: 1;
+  }
+
+#sectionImages{
+    max-width: 960px;
+}
+
+.info{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.bucket{
+    width: 275px;
+    height: 200px;
+    position: relative;
+    margin: 40px 40px 40px 0px;
+    display: inline-block;
+    clear: both;
+}
+
+#pictures-section {
+    width: 960px;
+    background: #ffffff;
+    margin: auto;
+}
+
+.allBanners{
+    background: #4aaaa5;
+    text-align: center;
+    color:#ffffff;
+    position: absolute;
+    top:135px;
+    width: 275px;
+    height: 40px;
+    z-index: 2;
+}
+
+#portLinks{
+    color: white;
+    font-size: 20px;
+}
+
+/*Contact Styling*/
+.contact-page{
+    margin: auto;
+    width: 960px;
+    align-content: center;
+}
+
+.secHead{
+    border-bottom: 5px solid #cccccc;
+    background: #ffffff;
+}
+
+input, 
+textarea {
+    width: 960px;
+    background: #ffffff;
+}
+
+textarea {
+    height: 200px;
+    background: #ffffff;
+}
+
+label,
+input {
+    background: #ffffff;
+}
+
+.btn {
+    padding: 20px;
+    margin: 30px 0px;
+    display: inline-block;
+    background: #4aaaa5;
+    color:#ffffff;
+}
+
+  .btn:hover {
+    background: #A7AAA5;
+    color: #212105;
+  }
+
+  /* Footer */
+  footer {
+    background: #666666;
+    text-align: center;
+    padding: 20px;
+    border-top: 5px solid #4aaaa5;
+    width: 100%;
+}
